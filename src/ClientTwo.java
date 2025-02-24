@@ -28,6 +28,7 @@ public class ClientTwo {
 
         // Enviar mensajes al servidor
         while (true) {
+            System.out.print("Select slot (1-9): ");
             var msg = sc.nextLine();
             clientTwoWriter.println(msg);
         }

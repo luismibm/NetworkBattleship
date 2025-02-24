@@ -28,6 +28,7 @@ public class ClientOne {
 
         // Enviar mensajes al servidor
         while (true) {
+            System.out.print("Select slot (1-9): ");
             var msg = sc.nextLine();
             clientOneWriter.println(msg);
         }
